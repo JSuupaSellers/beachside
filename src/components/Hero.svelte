@@ -12,5 +12,17 @@ import Header from "./Header.svelte";
         </h2>
         <p class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full"> Discover the beauty of Jekyll Island on two wheels. Our top-notch bicycle rental service offers a variety of styles and sizes for every adventure. <span class="italic">Visit us and start exploring today!</span></p> 
         <CtAs />
+        <div class="flex items-center justify-center gap-2 text-base">
+            <p>4.6</p>
+            {#each [0,1,2,3,4] as index}
+                <div class="grid place items-center relative">
+                    <i class="fa-solid fa-star opacity-0"></i>
+                    <div class={"absolute top-0 left-0 grid place-items-center " + (index === 4 ? "w-[60%] overflow-hidden" : " ")}>
+                        <i class="fa-solid fa-star text-amber-400"></i>
+                    </div>
+                </div>
+            {/each}
+            <p>(100+)</p>
+        </div>
     </div>
 </SectionWrapper>
