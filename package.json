@@ -17,5 +17,9 @@
 		"tailwindcss": "^3.4.3",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-carousel": "^1.0.25",
+		"swiper": "^11.1.3"
+	}
 }
