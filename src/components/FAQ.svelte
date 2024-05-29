@@ -14,7 +14,7 @@
     ];
   </script>
   
-  <SectionWrapper>
+  <SectionWrapper id = "FAQ">
     <div class="my-12 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-extrabold text-gray-900 mb-6 text-center">Frequently Asked Questions</h2>
         <div class="space-y-6">

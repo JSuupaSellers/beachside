@@ -17,12 +17,25 @@
       // Add more FAQs as needed
     ];
   </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
   
   <main class="flex flex-col">
-    <Hero />
-    <Products />
-    <Pricing />
-    <FAQ {faqs} />
+    <section id="hero">
+      <Hero />
+  </section>
+  <section id="products">
+      <Products />
+  </section>
+  <section id="pricing">
+      <Pricing />
+  </section>
+  <section id="faq">
+      <FAQ {faqs} />
+  </section>
 
   </main>
   
