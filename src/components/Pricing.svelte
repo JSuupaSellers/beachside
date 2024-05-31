@@ -34,10 +34,12 @@
     'https://beachsidebikerentals.s3.amazonaws.com/sun_boardwalk_men_blue.png',
     'https://beachsidebikerentals.s3.amazonaws.com/sun_boardwalk_womens_black.png',
     'https://beachsidebikerentals.s3.amazonaws.com/priority_white.webp',
-    'https://beachsidebikerentals.s3.amazonaws.com/3g_gray.webp'  // Replace with actual URLs
+    'https://beachsidebikerentals.s3.amazonaws.com/3g_gray.webp',
+    'https://beachsidebikerentals.s3.amazonaws.com/lil_bolt.webp' // Replace with actual URLs
   ];
 
   const specialtyBikeImages = [
+    'https://beachsidebikerentals.s3.amazonaws.com/7sp_womens_black_sun.webp',
     'https://beachsidebikerentals.s3.amazonaws.com/sun_traditional_kid_trike_blue.png', // Replace with actual URLs // Replace with actual URLs
     'https://beachsidebikerentals.s3.amazonaws.com/sun_traditional_trike_yellow.png'  // Replace with actual URLs
   ];
@@ -56,7 +58,8 @@
 
       <section class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <div class="border rounded-lg shadow-sm p-6">
-              <h2 class="text-2xl font-bold text-gray-900 mb-4">Regular Bikes</h2>
+              <h2 class="text-2xl font-semibold mb-4 text-center">Regular Bikes</h2>
+              <h3 class="text-center mt-4 text-md text-gray-600">Adult and Kid Single Speed Cruisers <br>Cruisers with Baby Seat Attachment<br>Trailer Attachment Alone</h3>
               <swiper-container space-between="10" slides-per-view="1" centered-slides="true" pagination="true">
                   {#each regularBikeImages as image}
                       <swiper-slide>
@@ -75,7 +78,8 @@
           </div>
 
           <div class="border rounded-lg shadow-sm p-6">
-              <h2 class="text-2xl font-bold text-gray-900 mb-4">Specialty Bikes</h2>
+              <h2 class="text-2xl font-semibold mb-4 text-center">Specialty Bikes</h2>
+              <h3 class="mt-4 text-md text-gray-600 text-center">Adult 7 and 21 Speed Bikes<br>Single speed with Trailer Attachment or Tagalong<br>Adult or Kid Trikes</h3>
               <swiper-container space-between="10" slides-per-view="1" centered-slides="true" pagination="true">
                   {#each specialtyBikeImages as image}
                       <swiper-slide>
@@ -94,7 +98,7 @@
           </div>
 
           <div class="border rounded-lg shadow-sm p-6">
-              <h2 class="text-2xl font-bold text-gray-900 mb-4">Surrey Family Bikes</h2>
+              <h2 class="text-2xl font-semibold mb-4 text-center">Surrey Family Bikes</h2>
               <swiper-container space-between="10" slides-per-view="1" centered-slides="true" pagination="true">
                   {#each surreyBikeImages as image}
                       <swiper-slide>

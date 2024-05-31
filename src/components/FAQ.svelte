@@ -3,13 +3,17 @@
 
     export let faqs = [
       {
-        question: "What is your return policy?",
-        answer: "We offer a 30-day return policy on all items. Please contact customer service for more details."
-      },
-      {
-        question: "How do I track my order?",
-        answer: "Once your order has shipped, we will send you an email with the tracking information."
-      },
+      question: "Do you rent E-bikes?",
+      answer: "Jekyll Island is governed by Jekyll Island Authority and they currently prohibit the rentals of any e-bikes on the island."
+    },
+    {
+      question: "Is there a weight limit for the kids trailer?",
+      answer: "There's a rough weight limit of approximately 40 pounds per seat & belt of the trailer. You can fit up to two kids of 40 pounds each."
+    },
+    {
+      question: "Do you have anything for dogs?",
+      answer: "Yes, we have converted some of our kids trailers into dog trailers. They also are limited to 40 pounds."
+    },
       // Add more FAQs as needed
     ];
   </script>
