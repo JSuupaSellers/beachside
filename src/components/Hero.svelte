@@ -14,6 +14,9 @@
             Discover the beauty of Jekyll Island on two wheels. Our top-notch bicycle rental service offers a variety of styles and sizes for every adventure. 
             <span class="italic">Visit us and start exploring today!</span>
         </p>
+        <div class="text-center text-gray-600 font-semibold">
+            <span class="text-red-400">Everyday</span> 9 am - 5 pm EST
+        </div>
         <CtAs />
         <div class="flex items-center justify-center gap-2 text-base">
             <p>4.6</p>

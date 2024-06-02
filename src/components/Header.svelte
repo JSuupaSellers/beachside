@@ -22,9 +22,6 @@
                 BEACHSIDE <span class="text-indigo-400">BIKE</span> RENTALS
             </h1>
         </a>
-        <div class="text-center text-gray-600 font-semibold">
-            <span class="text-red-400">Everyday</span> 9 am - 5 pm EST
-        </div>
         <button class="md:hidden grid place-items-center" on:click={toggleMenu}>
             <i class="fa-solid fa-bars"></i>
         </button>
