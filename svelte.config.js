@@ -1,16 +1,14 @@
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import adapter from 'amplify-adapter';
-export default {
+const config = {
   kit: {
     adapter: adapter({
-      // default options are shown
       pages: 'build',
       assets: 'build',
       fallback: null,
       precompress: false
-    }),
-    prerender: {
-      default: true
-    }
-  }
+    })
+  },
+  preprocess: vitePreprocess()
 };
+export default config;
