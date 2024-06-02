@@ -12,7 +12,7 @@
     },
     {
       question: "Do you have anything for dogs?",
-      answer: "Yes, we have converted some of our kids trailers into dog trailers. They also are limited to 40 pounds."
+      answer: "Yes. They also are limited to 40 pounds."
     },
       // Add more FAQs as needed
     ];
@@ -20,7 +20,7 @@
   
   <SectionWrapper id = "FAQ">
     <div class="my-12 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-extrabold text-gray-900 mb-6 text-center">Frequently Asked Questions</h2>
+        <h2 class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"><span class="text-indigo-400">Frequently</span> Asked Questions</h2>
         <div class="space-y-6">
         {#each faqs as faq}
             <div class="p-6 border-b border-gray-200">

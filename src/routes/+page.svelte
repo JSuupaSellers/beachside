@@ -19,10 +19,34 @@
     },
     {
       question: "Do you have anything for dogs?",
-      answer: "Yes, we have converted some of our kids trailers into dog trailers. They also are limited to 40 pounds."
+      answer: "Yes. They also are limited to 40 pounds."
     },
-    // Add more FAQs as needed
-  ];
+    {
+      question: "Are there any age restrictions for renting bikes?",
+      answer: "Yes, riders must be at least 18 years old to rent a bike on their own. Minors must have a parent or guardian sign the rental agreement on their behalf."
+    },
+    {
+      question: "What happens if the bike breaks down?",
+      answer: "In case of a breakdown, please call us immediately. We offer roadside assistance during our operating hours."
+    },
+    {
+      question: "Do you provide any accessories with the bike rentals?",
+      answer: "Yes, all bike rentals include a lock and optional basket at no extra charge."
+    },
+    {
+      question: "What forms of payment do you accept?",
+      answer: "We accept all major credit cards, debit cards, and cash payments at our rental location."
+    },
+    {
+      question: "Are there any special safety rules or local regulations I should be aware of?",
+      answer: "Yes, we advise all our customers to follow local biking regulations, including riding on the right side of the road and using bike lanes where available. Helmets are strongly recommended and provided for free."
+    },
+    {
+      question: "Do you offer long-term rental discounts?",
+      answer: "Yes, we offer discounts for rentals longer than a week. Please contact us for more details on long-term rates."
+    }
+];
+
 
   function scrollToSection(index) {
     const section = document.getElementById(sections[index]);

@@ -30,6 +30,11 @@
     { type: 'Large 4 Hours', price: '$90.00' },
   ];
 
+  const beachChair = [
+    { type: 'All Day', price: '$10.00'},
+    { type: '1 Week', price: '$25.00'}
+  ]
+
   const regularBikeImages = [
     'https://beachsidebikerentals.s3.amazonaws.com/sun_boardwalk_men_blue.png',
     'https://beachsidebikerentals.s3.amazonaws.com/sun_boardwalk_womens_black.png',
@@ -115,6 +120,17 @@
                   {/each}
               </ul>
           </div>
+          <div class="border rounded-lg shadow-sm p-6">
+            <h2 class="text-2xl font-semibold mb-4 text-center">Beach Chairs</h2>
+            <ul class="mt-4">
+                {#each beachChair as chair}
+                    <li class="flex justify-between py-2">
+                        <span>{chair.type}</span>
+                        <span class="font-semibold">{chair.price}</span>
+                    </li>
+                {/each}
+            </ul>
+        </div>
       </section>
   </main>
 </SectionWrapper>
