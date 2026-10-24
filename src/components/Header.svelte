@@ -17,9 +17,15 @@
 
 <header class="flex flex-col relative z-20">
     <div class="max-w-[1400px] mx-auto w-full flex items-center justify-between p-4 py-6">
-        <a href="/">
-            <h1 class="font-semibold">
-                BEACHSIDE <span class="text-indigo-400">BIKE</span> RENTALS
+        <a href="/" aria-label="Beachside Bike Rentals home" class="shrink-0">
+            <h1>
+                <img
+                    src="/brand/beachside-original-logo-transparent.png"
+                    alt="Beachside Bike Rentals"
+                    width="1254"
+                    height="1254"
+                    class="h-36 w-36 object-contain sm:h-40 sm:w-40 lg:h-44 lg:w-44"
+                />
             </h1>
         </a>
         <button class="md:hidden grid place-items-center" on:click={toggleMenu}>
