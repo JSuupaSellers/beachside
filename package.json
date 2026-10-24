@@ -8,7 +8,7 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-vercel": "5.10.3",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"autoprefixer": "^10.4.19",
@@ -20,8 +20,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"amplify": "^0.0.11",
-		"amplify-adapter": "^0.1.2",
 		"svelte-carousel": "^1.0.25",
 		"swiper": "^11.1.3"
 	}

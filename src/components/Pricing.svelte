@@ -36,22 +36,22 @@
   ]
 
   const regularBikeImages = [
-    'https://beachsidebikerentals.s3.amazonaws.com/sun_boardwalk_men_blue.png',
-    'https://beachsidebikerentals.s3.amazonaws.com/sun_boardwalk_womens_black.png',
-    'https://beachsidebikerentals.s3.amazonaws.com/priority_white.webp',
-    'https://beachsidebikerentals.s3.amazonaws.com/3g_gray.webp',
-    'https://beachsidebikerentals.s3.amazonaws.com/lil_bolt.webp' // Replace with actual URLs
+    '/bikes/sun_boardwalk_men_blue.png',
+    '/bikes/sun_boardwalk_womens_black.png',
+    '/bikes/priority_white.webp',
+    '/bikes/3g_gray.webp',
+    '/bikes/lil_bolt.webp' // Replace with actual URLs
   ];
 
   const specialtyBikeImages = [
-    'https://beachsidebikerentals.s3.amazonaws.com/7sp_womens_black_sun.webp',
-    'https://beachsidebikerentals.s3.amazonaws.com/sun_traditional_kid_trike_blue.png', // Replace with actual URLs // Replace with actual URLs
-    'https://beachsidebikerentals.s3.amazonaws.com/sun_traditional_trike_yellow.png'  // Replace with actual URLs
+    '/bikes/7sp_womens_black_sun.webp',
+    '/bikes/sun_traditional_kid_trike_blue.png', // Replace with actual URLs // Replace with actual URLs
+    '/bikes/sun_traditional_trike_yellow.png'  // Replace with actual URLs
   ];
 
   const surreyBikeImages = [
-    'https://beachsidebikerentals.s3.amazonaws.com/single_surrey.jpg', // Replace with actual URLs
-    'https://beachsidebikerentals.s3.amazonaws.com/double_surrey.jpg', // Replace with actual URLs // Replace with actual URLs
+    '/bikes/single_surrey.jpg', // Replace with actual URLs
+    '/bikes/double_surrey.jpg', // Replace with actual URLs // Replace with actual URLs
   ];
 </script>
 <SectionWrapper id="pricing">

@@ -1,12 +1,9 @@
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import adapter from 'amplify-adapter';
+import adapter from '@sveltejs/adapter-vercel';
 const config = {
   kit: {
     adapter: adapter({
-      pages: 'build',
-      assets: 'build',
-      fallback: null,
-      precompress: false
+      runtime: 'nodejs22.x'
     })
   },
   preprocess: vitePreprocess()
